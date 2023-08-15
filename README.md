@@ -12,6 +12,9 @@ An application dedicated to providing data on UFO Sightings
 | Supertest       | HTTP testing library for Jest  | `npm install supertest` |
 | Nodemon         | Automatic server restarts      | `npm install nodemon` |
 | Dotenv          | Environment variable management| `npm install dotenv`     |
+| Beautifulsoup          | Environment variable management| `npm install dotenv`     |
+| puppeteer          | Environment variable management| `npm install dotenv`     |
+
 
 
 
