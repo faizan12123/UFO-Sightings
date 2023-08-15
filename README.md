@@ -11,6 +11,7 @@ An application dedicated to providing data on UFO Sightings
 | Jest            | Testing framework              | `npm install jest` |
 | Supertest       | HTTP testing library for Jest  | `npm install supertest` |
 | Nodemon         | Automatic server restarts      | `npm install nodemon` |
+| Dotenv          | Environment variable management| `npm install dotenv`     |
 
 
 
