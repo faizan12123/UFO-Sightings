@@ -10,7 +10,6 @@ const getUFOdataRoutes = require("./routes/getUFOdata.js")
 app.use("/getUFOdata", getUFOdataRoutes)
 
 // Run the scrapeAndSeed script immediately
-// Run the scrapeAndSeed script immediately
 require('./utils/scrapeAndSeed.js');
 
 app.listen(port, () => {
