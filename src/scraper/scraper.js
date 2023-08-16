@@ -1,11 +1,11 @@
 const puppeteer = require('puppeteer')
 
-const url = 'https://nuforc.org/webreports/ndxpost.html'
-
-const main = async () => {
-    const browser = await puppeteer.launch({headless: false})
+const dataScraper = async (browser) => {
+    const url = 'https://nuforc.org/webreports/ndxpost.html'
     const page = await browser.newPage()
     await page.goto(url)
+
+    const allTableData = []
 
     // Get all the date links
     const dateLinks = await page.$$eval('td a[href$=".html"]', links => links.map(link => link.href));
@@ -34,11 +34,11 @@ const main = async () => {
         });
     });
 
-    // Do something with the extracted data (e.g., save it to a database or file)
-    // console.log(tableData);
-    return tableData
+    allTableData.push(...tableData)
+
     }
     await browser.close()
+    return allTableData
 }
 
-module.exports = main
+module.exports = dataScraper
