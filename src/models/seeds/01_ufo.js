@@ -2,16 +2,18 @@ exports.seed = async function(knex, tableData) {
 
   // Deletes ALL existing entries
   await knex('ufo').del()
-  for (let i = 0; i <= tableData.length; i++) {
+  for (let row of tableData) {
     await knex('ufo').insert([
       {
-        LocationID: i,
-        ShapeID: i,
-        reported_date: tableData[i].posted,
-        incident_date: tableData[i].dateTime,
-        duration: tableData[i].duration,
-        summary: tableData[i].summary,
-        images: tableData[i].images
+        city: row.city,
+        state: row.state,
+        country: row.country,
+        shape: row.shape,
+        reported_date: row.posted,
+        incident_date: row.dateTime,
+        duration: row.duration,
+        summary: row.summary,
+        images: row.images
       },
     ]);
   }
