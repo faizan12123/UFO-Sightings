@@ -6,7 +6,6 @@ const queryUFOall = async () => {
     return data;
   } catch (error) {
     console.error('Error querying UFO data:', error);
-    throw error;
   }
 };
 

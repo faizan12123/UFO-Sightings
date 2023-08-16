@@ -38,6 +38,12 @@ const dataScraper = async (browser) => {
         // console.log("rows: " + rows)
         const cells = row.querySelectorAll('td');
         // console.log("cell: " + cells)
+        let images = ''
+        if(cells[8].textContent == '') {
+          images = 'No'
+        } else {
+          images = 'Yes'
+        }
         return {
             dateTime: cells[0].textContent,
             city: cells[1].textContent,
@@ -47,7 +53,7 @@ const dataScraper = async (browser) => {
             duration: cells[5].textContent,
             summary: cells[6].textContent,
             posted: cells[7].textContent,
-            images: cells[8].textContent
+            images: images
         };
         });
     });
