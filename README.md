@@ -13,6 +13,7 @@ An application dedicated to providing data on UFO Sightings
 | Nodemon         | Automatic server restarts      | `npm install nodemon` |
 | Dotenv          | Environment variable management| `npm install dotenv`     |
 | Puppeteer          | Web scraping library| `npm install puppeteer`     |
+| Express-rate-limit          | Rate limiting middleware for Express| `npm install express-rate-limit`     |
 
 
 
