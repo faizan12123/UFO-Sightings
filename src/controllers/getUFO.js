@@ -1,12 +1,22 @@
-const queryUFOlocation = require("../services/queryUFOlocation.js")
+const queryUFO = require("../services/queryUFO.js")
 
-const getUFOlocation = async (req, res) => {
-  const { state, city, country } = req.query;
+const getUFO = async (req, res) => {
+  let { state, city, country, dateOfOccurrence } = req.query;
 
   // Create an object to store only the existing parameters
   const location = {};
 
   try {
+    if (dateOfOccurrence) {
+        dateOfOccurrence = decodeURIComponent(dateOfOccurrence)
+        dateOfOccurrence = dateOfOccurrence.split(',');
+    
+        for (let date of dateOfOccurrence) {
+          if(date&&!date.match(/^\d{1,2}\/\d{1,2}\/\d{2}$/)){
+            return res.status(400).json({ error: "Invalid date format." });
+          }
+        }
+      }
     if (state) {
       location.state = decodeURIComponent(state).split(',');
     }
@@ -17,11 +27,11 @@ const getUFOlocation = async (req, res) => {
       location.country = decodeURIComponent(country).split(',');
     }
 
-    const UFOlocation = await queryUFOlocation(location);
+    const UFO = await queryUFO(location, dateOfOccurrence);
     
     //if there is no results from the query, respond with a message to the user
-    if(UFOlocation.length > 0) {
-      return res.json(UFOlocation);
+    if(UFO.length > 0) {
+      return res.json(UFO);
     } else{
       return res.status(400).json({ error: "No results matching this search" })
     }
@@ -32,4 +42,4 @@ const getUFOlocation = async (req, res) => {
   }
 };
 
-module.exports = getUFOlocation;
+module.exports = getUFO;
