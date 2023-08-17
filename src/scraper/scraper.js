@@ -35,17 +35,18 @@ const dataScraper = async (browser) => {
     // Extract data from the table
     const tableData = await page.$$eval('table tbody tr', rows => {
         return rows.map(row => {
-        // console.log("rows: " + rows)
         const cells = row.querySelectorAll('td');
-        // console.log("cell: " + cells)
+
         let images = ''
         if(cells[8].textContent == '') {
           images = 'No'
         } else {
           images = 'Yes'
         }
+
+
         return {
-            dateTime: cells[0].textContent,
+            dateTime: cells[0].textContent.split(' ')[0],
             city: cells[1].textContent,
             state: cells[2].textContent,
             country: cells[3].textContent,

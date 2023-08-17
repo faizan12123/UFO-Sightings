@@ -18,6 +18,7 @@ const queryUFOlocation = async (location) => {
     const data = await queryBuilder;
     
     return data;
+    
   } catch (error) {
     console.error('Error querying UFO data:', error);
     throw error;

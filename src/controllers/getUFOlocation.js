@@ -23,7 +23,7 @@ const getUFOlocation = async (req, res) => {
     if(UFOlocation.length > 0) {
       return res.json(UFOlocation);
     } else{
-      return res.send("No results matching this search")
+      return res.status(400).json({ error: "No results matching this search" })
     }
     
   } catch (error) {
