@@ -1,10 +1,13 @@
 const db = require('../models/db.js');
 
-const queryUFOlocation = async (location) => {
+const queryUFO = async (location, dateOfOccurrence) => {
   const { city, state, country } = location;
   try {
     let queryBuilder = db.select().table('ufo');
-
+    
+    if (dateOfOccurrence) {
+        queryBuilder.whereIn('incident_date', dateOfOccurrence);
+      } 
     if (city) {
       queryBuilder.whereIn('city', city);
     } 
@@ -25,4 +28,4 @@ const queryUFOlocation = async (location) => {
   }
 };
 
-module.exports = queryUFOlocation;
+module.exports = queryUFO;
