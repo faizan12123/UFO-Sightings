@@ -1,8 +1,9 @@
 const queryUFO = require("../services/queryUFO.js")
 
 const getUFO = async (req, res) => {
+  
   let { state, city, country, dateOfOccurrence } = req.query;
-
+  
   // Create an object to store only the existing parameters
   const location = {};
 
