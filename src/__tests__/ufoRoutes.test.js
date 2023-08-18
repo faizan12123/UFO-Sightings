@@ -33,6 +33,7 @@ describe('testing the /getUFOdata', () => {
         expect(statusCode).toBe(200);
         expect(body).toEqual(sampleResponse);
     })
+
     it('should return 200 status if there is no query being sent with the get call', async () => {
         queryUFO.mockResolvedValue(sampleResponse);
         const {statusCode, body} = await supertest(app).get('/getUFOdata')
@@ -65,6 +66,21 @@ describe('testing the /getUFOdata', () => {
         const {statusCode, body} = await supertest(app).get('/getUFOdata')
         expect(statusCode).toBe(500);
         expect(body).toEqual({  error: "Internal server error" });
+    })
+
+    it('should return 429 status when exceeding rate limit', async () => {
+        queryUFO.mockResolvedValue(sampleResponse);
+
+        for (let i = 0; i < 95; i++) {
+            const {statusCode, body} = await supertest(app).get('/getUFOdata').query(req)
+            expect(statusCode).toBe(200);
+        }
+
+        for (let i = 0; i < 10; i++) {
+            const {statusCode, body} = await supertest(app).get('/getUFOdata').query(req)
+            expect(statusCode).toBe(429);
+        }
+        
     })
 
 })
