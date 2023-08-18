@@ -6,7 +6,7 @@ const db = require('../models/db.js');
 
 const runScrapingAndSeeding = async () => {
   try {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({executablePath: '/usr/bin/google-chrome',headless: true,args: ["--disable-gpu","--disable-dev-shm-usage","--disable-setuid-sandbox","--no-sandbox",]});
     const tableData = await dataScraper(browser);
     console.log("Scraping completed");
     

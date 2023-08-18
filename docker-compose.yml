@@ -1,0 +1,41 @@
+version: "3"
+services:
+  app:
+    restart: on-failure
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "3001:3001"
+    command: npm start
+    volumes:
+      - .:/app/
+      - /app/node_modules
+
+  postgres-dev:
+    image: postgres:11
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: ${PGDATABASEDEV}
+      POSTGRES_USER: ${PGUSERDEV}
+      POSTGRES_PASSWORD: ${PGPASSWORDDEV}
+      POSTGRES_PORT: ${PGPORTDEV}
+    volumes:
+      - postgres-dev-data:/var/lib/postgresql/data
+
+  postgres-prod:
+    image: postgres:11
+    ports:
+      - "5433:5432"  # Mapping container port 5432 to host port 5433
+    environment:
+      POSTGRES_DB: ${PGDATABASEPROD}
+      POSTGRES_USER: ${PGUSERPROD}
+      POSTGRES_PASSWORD: ${PGPASSWORDPROD}
+      POSTGRES_PORT: ${PGPORTPROD}
+    volumes:
+      - postgres-prod-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-dev-data:
+  postgres-prod-data:
