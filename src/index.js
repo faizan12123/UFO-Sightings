@@ -1,4 +1,4 @@
-require('dotenv').config({path: '../.env'});
+require('dotenv').config()
 const createServer = require('./utils/server')
 // Make express server
 
