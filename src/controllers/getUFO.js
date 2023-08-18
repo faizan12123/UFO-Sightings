@@ -19,13 +19,13 @@ const getUFO = async (req, res) => {
         }
       }
     if (state) {
-      location.state = decodeURIComponent(state).split(',');
+      location.state = decodeURIComponent(state).split(',').map(item => item.toLowerCase());
     }
     if (city) {
-      location.city = decodeURIComponent(city).split(',');
+      location.city = decodeURIComponent(city).split(',').map(item => item.toLowerCase());
     }
     if (country) {
-      location.country = decodeURIComponent(country).split(',');
+      location.country = decodeURIComponent(country).split(',').map(item => item.toLowerCase());
     }
 
     const UFO = await queryUFO(location, dateOfOccurrence);

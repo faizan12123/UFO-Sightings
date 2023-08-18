@@ -6,16 +6,16 @@ const queryUFO = async (location, dateOfOccurrence) => {
     let queryBuilder = db.select().table('ufo');
     
     if (dateOfOccurrence) {
-        queryBuilder.whereIn('incident_date', dateOfOccurrence);
-      } 
+      queryBuilder.whereIn('incident_date', dateOfOccurrence);
+    } 
     if (city) {
-      queryBuilder.whereIn('city', city);
+      queryBuilder.whereIn(db.raw('LOWER(city)'), city);
     } 
     if (state) {
-      queryBuilder.whereIn('state', state);
+      queryBuilder.whereIn(db.raw('LOWER(state)'), state);
     } 
     if (country) {
-      queryBuilder.whereIn('country', country);
+      queryBuilder.whereIn(db.raw('LOWER(country)'), country);
     }
 
     const data = await queryBuilder;
