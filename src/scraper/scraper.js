@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer')
 
 const dataScraper = async (browser) => {
+  try{
     const url = 'https://nuforc.org/webreports/ndxpost.html'
     const page = await browser.newPage()
     await page.goto(url)
@@ -64,6 +65,9 @@ const dataScraper = async (browser) => {
     }
     await browser.close()
     return allTableData
+  } catch (error) {
+    console.error(error)
+  }
 }
 
 module.exports = dataScraper
