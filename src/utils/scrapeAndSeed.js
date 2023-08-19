@@ -1,4 +1,3 @@
-require('dotenv').config();
 const puppeteer = require('puppeteer');
 const dataScraper= require('../scraper/scraper.js');
 const db = require('../models/db.js');
