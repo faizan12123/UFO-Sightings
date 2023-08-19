@@ -11,7 +11,6 @@ services:
     volumes:
       - ./src/logs:/app/src/logs
 
-
   postgres-dev:
     image: postgres:11
     ports:
@@ -25,7 +24,7 @@ services:
   postgres-prod:
     image: postgres:11
     ports:
-      - "5433:5432"  # Mapping container port 5432 to host port 5433
+      - "5433:5432" # Mapping container port 5432 to host port 5433
     environment:
       POSTGRES_DB: ${PGDATABASEPROD}
       POSTGRES_USER: ${PGUSERPROD}

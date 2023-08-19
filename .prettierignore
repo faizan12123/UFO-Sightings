@@ -1,0 +1,12 @@
+.env
+.dockerignore
+.env_example
+.gitignore
+.docker-compose.yaml
+dockerfile
+jest.config.js
+package.json
+package-lock.json
+README.md
+/src/logs
+/src/models

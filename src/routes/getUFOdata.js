@@ -1,8 +1,8 @@
-const express = require("express")
-const router = express.Router()
+const express = require("express");
+const router = express.Router();
 
-const getUFO = require("../controllers/getUFO")
+const getUFO = require("../controllers/getUFO");
 
-router.get("/", getUFO)
+router.get("/", getUFO);
 
 module.exports = router;
