@@ -44,6 +44,7 @@ To query by location:
 http://localhost:3001/getUFOdata/?country=&city=&state=
 
 Provide multiple values as parameters, separated by commas.
+
 To query by date of occurrence:
 
 http://localhost:3001/getUFOdata/?dateOfOccurrence=
