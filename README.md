@@ -7,6 +7,7 @@ This document provides instructions on how to set up and run the containerized a
 Before you begin, please ensure that you have the following prerequisites installed:
 
 [Docker](https://docs.docker.com/desktop/install/windows-install/)
+
 [Postgres](https://www.postgresql.org/download/)
 
 
