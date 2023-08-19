@@ -1,11 +1,14 @@
 # UFO-Sightings
 An application dedicated to providing data on UFO Sightings
 
-This document provides instructions on how to set up and run the containerized application. Before you begin, please ensure that you have the following prerequisites installed:
+This document provides instructions on how to set up and run the containerized application. 
 
-- Docker
-- Docker Compose
-- PostgreSQL
+## Prerequisites
+Before you begin, please ensure that you have the following prerequisites installed:
+
+{Docker}(https://docs.docker.com/desktop/install/windows-install/)
+{Postgres}(https://www.postgresql.org/download/)
+
 
 ## Configuration
 
