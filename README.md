@@ -33,10 +33,6 @@ Before you begin, please ensure that you have the following prerequisites instal
 docker-compose up --build -d
 ```
 
-## Running Unit Tests
-To run unit tests for the application, you can use the following command:
-
-```docker-compose run app npm test```
 
 ## Accessing the API
 Once the containers are running, you can access the API endpoints using your browser or a tool like curl. Here are the main endpoints:
@@ -53,6 +49,11 @@ To query by date of occurrence:
 http://localhost:3001/getUFOdata/?dateOfOccurrence=
 
 Provide multiple values as parameters, separated by commas.
+
+## Running Unit Tests
+To run unit tests for the application, you can use the following command:
+
+```docker-compose run app npm test```
 
 ## Example Queries
 Here are some example queries you can try:
