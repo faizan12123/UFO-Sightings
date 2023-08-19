@@ -33,6 +33,10 @@ Before you begin, please ensure that you have the following prerequisites instal
 docker-compose up --build -d
 ```
 
+```
+WARNING: Please terminate conflicting background postgres services prior to running the above command
+```
+
 
 ## Accessing the API
 Once the containers are running, you can access the API endpoints using your browser or a tool like curl. Here are the main endpoints:
