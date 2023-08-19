@@ -1,4 +1,5 @@
 const db = require('../models/db.js');
+const logger = require('../logs/logger.js')
 
 const queryUFO = async (location, dateOfOccurrence) => {
   const { city, state, country } = location;
@@ -23,7 +24,7 @@ const queryUFO = async (location, dateOfOccurrence) => {
     return data;
     
   } catch (error) {
-    console.error('Error querying UFO data:', error);
+    logger.error('Error querying UFO data:', error);
     throw error;
   }
 };

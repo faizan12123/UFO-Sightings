@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer')
+const logger = require('../logs/logger')
 
 const dataScraper = async (browser) => {
   try{
@@ -66,7 +67,7 @@ const dataScraper = async (browser) => {
     await browser.close()
     return allTableData
   } catch (error) {
-    console.error(error)
+    logger.error(error)
   }
 }
 

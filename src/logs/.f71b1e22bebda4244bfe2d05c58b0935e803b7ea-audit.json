@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "src/logs/.f71b1e22bebda4244bfe2d05c58b0935e803b7ea-audit.json",
+    "files": [
+        {
+            "date": 1692402620286,
+            "name": "src/logs/UFO-warn-2023-08-18-23.log",
+            "hash": "8d34277378bad958e39973d8f6acb95b134577866433f90c2f31c97d34491813"
+        }
+    ],
+    "hashType": "sha256"
+}

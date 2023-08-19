@@ -1,4 +1,5 @@
 const queryUFO = require("../services/queryUFO.js")
+const logger = require('../logs/logger.js')
 
 const getUFO = async (req, res) => {
   
@@ -6,6 +7,7 @@ const getUFO = async (req, res) => {
   
   // Create an object to store only the existing parameters
   const location = {};
+  logger.info("API Query Received: " + "state: " + state + " city: " + city + " country: " + country + " dateOfOccurrence: " + dateOfOccurrence)
 
   try {
     if (dateOfOccurrence) {
@@ -38,7 +40,7 @@ const getUFO = async (req, res) => {
     }
     
   } catch (error) {
-    console.error("Error decoding URI:", error);
+    logger.error("Error decoding URI:", error);
     return res.status(500).json({ error: "Internal server error" });
   }
 };

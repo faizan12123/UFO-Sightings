@@ -1,5 +1,6 @@
 require('dotenv').config()
 const createServer = require('./utils/server')
+const logger = require('./logs/logger')
 // Make express server
 
 
@@ -13,5 +14,5 @@ const app = createServer()
 require('./utils/scrapeAndSeed.js');
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`)
+  logger.info(`Server is running on port ${port}`)
 })
