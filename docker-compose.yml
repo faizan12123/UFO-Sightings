@@ -17,22 +17,22 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: ${PGDATABASEDEV}
+      POSTGRES_DB: ${PGDATABASENAMEDEV}
       POSTGRES_USER: ${PGUSERDEV}
       POSTGRES_PASSWORD: ${PGPASSWORDDEV}
-      POSTGRES_PORT: ${PGPORTDEV}
+      POSTGRES_PORT: '5432'
 
   postgres-prod:
     image: postgres:11
     ports:
       - "5433:5432"  # Mapping container port 5432 to host port 5433
     environment:
-      POSTGRES_DB: ${PGDATABASEPROD}
+      POSTGRES_DB: ${PGDATABASENAMEPROD}
       POSTGRES_USER: ${PGUSERPROD}
       POSTGRES_PASSWORD: ${PGPASSWORDPROD}
-      POSTGRES_PORT: ${PGPORTPROD}
-    volumes:
-      - postgres-prod-data:/var/lib/postgresql/data
+      POSTGRES_PORT: '5432'
+#     volumes:
+#       - postgres-prod-data:/var/lib/postgresql/data
 
-volumes:
-  postgres-prod-data:
+# volumes:
+#   postgres-prod-data:

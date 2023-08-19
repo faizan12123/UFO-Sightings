@@ -4,8 +4,8 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      host: process.env.PGHOSTDEV,
-      database: process.env.PGDATABASEDEV,
+      host: "postgres-dev",
+      database: process.env.PGDATABASENAMEDEV,
       user: process.env.PGUSERDEV,
       password: process.env.PGPASSWORDDEV,
       port: process.env.PGPORTDEV,
@@ -25,8 +25,8 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      host: process.env.PGHOSTPROD,
-      database: process.env.PGDATABASEPROD,
+      host: "postgres-prod",
+      database: process.env.PGDATABASENAMEPROD,
       user: process.env.PGUSERPROD,
       password: process.env.PGPASSWORDPROD,
       port: process.env.PGPORTPROD
