@@ -1,0 +1,273 @@
+2023-08-18T23:39:33.324Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:39:35.530Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:39:35.643Z [32minfo[39m: 	Seed completed
+2023-08-18T23:40:13.068Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:40:35.459Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:40:35.578Z [32minfo[39m: 	Seed completed
+2023-08-18T23:41:37.389Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:41:43.943Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:50:20.551Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:50:22.704Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:50:22.837Z [32minfo[39m: 	Seed completed
+2023-08-18T23:50:29.897Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:50:32.434Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:52:40.271Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:52:44.378Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:52:44.560Z [32minfo[39m: 	Seed completed
+2023-08-18T23:52:45.868Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:52:46.190Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:52:46.312Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:53:58.256Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:54:00.407Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:54:00.576Z [32minfo[39m: 	Seed completed
+2023-08-18T23:54:01.522Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:54:01.893Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:54:02.033Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.037Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.041Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.045Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.050Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.054Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.058Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.063Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.068Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:54:02.073Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:37.370Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:57:40.570Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:57:40.800Z [32minfo[39m: 	Seed completed
+2023-08-18T23:57:42.161Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/223,7/17/233
+2023-08-18T23:57:42.167Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angelescountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.169Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angelescountry: USAdateOfOccurrence: 17/21/23
+2023-08-18T23:57:42.170Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angelescountry: USAdateOfOccurrence: 17/21/23
+2023-08-18T23:57:42.177Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:57:42.385Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.414Z [32minfo[39m: 	API Query Received: state: undefinedcity: undefinedcountry: undefineddateOfOccurrence: undefined
+2023-08-18T23:57:42.431Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.436Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/2122/23,7/17/23
+2023-08-18T23:57:42.449Z [32minfo[39m: 	API Query Received: state: undefinedcity: undefinedcountry: undefineddateOfOccurrence: undefined
+2023-08-18T23:57:42.457Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:57:42.462Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.466Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.470Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.473Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.477Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.490Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.493Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.496Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.500Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.503Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.506Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.508Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.512Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.515Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.518Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.521Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.524Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.526Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.530Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.536Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.540Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.542Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.545Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.549Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.552Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.555Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.557Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.559Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.562Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.565Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.567Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.569Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.572Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.574Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.576Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.578Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.581Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.586Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.589Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.591Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.593Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.595Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.597Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.599Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.602Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.605Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.607Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.610Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.613Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.617Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.620Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.622Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.624Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.626Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.628Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.631Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.633Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.638Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.641Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.644Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.646Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.648Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.651Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.653Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.656Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.658Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.661Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.664Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.666Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.669Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.671Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.673Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.676Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.678Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.681Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.683Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.688Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.690Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.692Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.694Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.696Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.701Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.704Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.708Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.712Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.721Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.724Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.726Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.729Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.733Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.736Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.739Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.742Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.745Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.748Z [32minfo[39m: 	API Query Received: state: undefinedcity: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austincountry: USAdateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:57:42.751Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.756Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.761Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.765Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.768Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.772Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.780Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.785Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.787Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:57:42.791Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:02.063Z [32minfo[39m: 	API Query Received: state: undefinedcity: los angelescountry: undefineddateOfOccurrence: undefined
+2023-08-18T23:58:46.638Z [32minfo[39m: 	Server is running on port 3001
+2023-08-18T23:58:48.738Z [32minfo[39m: 	Scraping completed
+2023-08-18T23:58:48.875Z [32minfo[39m: 	Seed completed
+2023-08-18T23:58:50.144Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/223,7/17/233
+2023-08-18T23:58:50.151Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.154Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles country: USA dateOfOccurrence: 17/21/23
+2023-08-18T23:58:50.155Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles country: USA dateOfOccurrence: 17/21/23
+2023-08-18T23:58:50.162Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:58:50.331Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.345Z [32minfo[39m: 	API Query Received: state: undefined city: undefined country: undefined dateOfOccurrence: undefined
+2023-08-18T23:58:50.352Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.357Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/2122/23,7/17/23
+2023-08-18T23:58:50.361Z [32minfo[39m: 	API Query Received: state: undefined city: undefined country: undefined dateOfOccurrence: undefined
+2023-08-18T23:58:50.371Z [31merror[39m: 	Error decoding URI: Simulated server error
+2023-08-18T23:58:50.375Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.379Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.385Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.388Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.393Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.400Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.406Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.415Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.418Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.421Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.424Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.427Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.431Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.434Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.437Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.440Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.442Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.446Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.449Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.452Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.455Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.458Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.460Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.464Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.466Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.469Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.471Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.473Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.475Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.479Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.483Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.486Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.489Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.495Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.498Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.500Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.503Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.505Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.507Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.510Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.513Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.515Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.517Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.520Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.522Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.524Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.526Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.529Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.531Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.534Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.536Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.542Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.544Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.547Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.549Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.552Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.553Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.556Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.558Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.561Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.564Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.566Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.568Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.571Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.574Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.577Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.579Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.582Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.585Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.587Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.590Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.595Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.597Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.599Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.601Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.604Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.606Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.608Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.610Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.612Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.614Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.616Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.619Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.621Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.623Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.625Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.627Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.629Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.631Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.634Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.636Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.638Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.642Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.645Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.647Z [32minfo[39m: 	API Query Received: state: undefined city: Los Angeles,Irvine,New York,Austin,Dallas,dallas,austin country: USA dateOfOccurrence: 7/21/23,7/17/23
+2023-08-18T23:58:50.650Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.653Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.656Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.659Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.662Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.665Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.667Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.669Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.672Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1
+2023-08-18T23:58:50.674Z [33mwarn[39m: 	Rate limit exceeded for IP: ::ffff:127.0.0.1

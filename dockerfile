@@ -1,5 +1,7 @@
 FROM node:18.12.1
 
+WORKDIR /app
+
 # We don't need the standalone Chromium
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
@@ -11,19 +13,16 @@ RUN apt-get update && apt-get install gnupg wget -y && \
   apt-get install google-chrome-stable -y --no-install-recommends && \
   rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
+
 
 COPY package.json .
-
 COPY package-lock.json .
 
 RUN npm cache clean --force
 RUN npm install
 RUN npm install --include=dev
 
-
 COPY . .
-
 
 EXPOSE 3001
 

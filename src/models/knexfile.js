@@ -1,5 +1,4 @@
 require('dotenv').config({path: '../../.env'});
-// console.log(process.env.PGHOSTDEV + process.env.PGPORTDEV + process.env.PGDATABASEDEV + process.env.PGUSERDEV + process.env.PGPASSWORDDEV)
 
 module.exports = {
   development: {

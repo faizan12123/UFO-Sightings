@@ -9,8 +9,8 @@ services:
       - "3001:3001"
     command: npm start
     volumes:
-      - .:/app/
-      - /app/node_modules
+      - ./src/logs:/app/src/logs
+
 
   postgres-dev:
     image: postgres:11
@@ -21,8 +21,6 @@ services:
       POSTGRES_USER: ${PGUSERDEV}
       POSTGRES_PASSWORD: ${PGPASSWORDDEV}
       POSTGRES_PORT: ${PGPORTDEV}
-    volumes:
-      - postgres-dev-data:/var/lib/postgresql/data
 
   postgres-prod:
     image: postgres:11
@@ -37,5 +35,4 @@ services:
       - postgres-prod-data:/var/lib/postgresql/data
 
 volumes:
-  postgres-dev-data:
   postgres-prod-data:

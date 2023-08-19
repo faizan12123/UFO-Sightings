@@ -2,13 +2,14 @@ require('dotenv').config();
 const puppeteer = require('puppeteer');
 const dataScraper= require('../scraper/scraper.js');
 const db = require('../models/db.js');
+const logger = require('../logs/logger.js')
 
 
 const runScrapingAndSeeding = async () => {
   try {
     const browser = await puppeteer.launch({executablePath: '/usr/bin/google-chrome',headless: true,args: ["--disable-gpu","--disable-dev-shm-usage","--disable-setuid-sandbox","--no-sandbox",]});
     const tableData = await dataScraper(browser);
-    console.log("Scraping completed");
+    logger.info("Scraping completed");
     
     // Truncate the table to delete all previous data
     await db('ufo').truncate();
@@ -27,9 +28,9 @@ const runScrapingAndSeeding = async () => {
   
   await db('ufo').insert(formattedData);
     
-    console.log("Seed completed");
+    logger.info("Seed completed");
   } catch (error) {
-    console.error("Seed or scrape error:", error);
+    logger.error("Seed or scrape error:", error);
   }
 };
 runScrapingAndSeeding()
