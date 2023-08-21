@@ -1,0 +1,13 @@
+2023-08-20T22:11:57.330Z [32minfo[39m: 	Server is running on port 3001
+2023-08-20T22:12:23.891Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:12:28.020Z [31merror[39m: 	Seed or scrape error: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+2023-08-20T22:16:41.571Z [32minfo[39m: 	Server is running on port 3001
+2023-08-20T22:17:03.126Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:17:09.906Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:17:36.257Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:17:37.513Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:18:15.906Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:18:21.522Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-20T22:18:40.528Z [31merror[39m: 	Navigation timeout of 30000 ms exceeded
+2023-08-20T22:18:40.529Z [32minfo[39m: 	Scraping completed
+2023-08-20T22:18:40.921Z [31merror[39m: 	Seed or scrape error: Cannot read properties of undefined (reading 'map')
