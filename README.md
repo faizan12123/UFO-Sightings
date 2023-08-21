@@ -1,21 +1,19 @@
 # UFO-Sightings
-An application dedicated to providing data on UFO Sightings
+An API dedicated to providing data on UFO Sightings (data is updated every 6 hours from https://nuforc.org/databank/)
 
 This document provides instructions on how to set up and run the containerized application. 
 
 ## Prerequisites
 Before you begin, please ensure that you have the following prerequisites installed:
 
-[Docker](https://docs.docker.com/desktop/install/windows-install/)
-
-[Postgres](https://www.postgresql.org/download/)
+[Docker](https://www.docker.com/get-started/)
 
 
 ## Configuration
 
 1. Clone the repository and navigate to the codebase root directory.
 
-2. Create a `.env` file in the root directory to replicate the `.env_example` file. Populate the following variables with your PostgreSQL username and password:
+2. Create a `.env` file in the root directory to replicate the `.env_example` file. In the `.env` file, make sure to populate the following variables that were left blank in the `.env_example` file with your PostgreSQL username and password:
 
 - PGUSERPROD=your_prod_username
 - PGPASSWORDPROD=your_prod_password
@@ -33,15 +31,23 @@ Before you begin, please ensure that you have the following prerequisites instal
 docker-compose up --build -d
 ```
 
-```
-WARNING: Please terminate conflicting background postgres services prior to running the above command
-```
+### Warning
+Before running the `docker-compose` command above, please ensure that the following ports are **not** already in use by other processes on your local system:
+
+- Port `3001`
+- Port `5434`
+- Port `5433`
+
+Conflicting port usage could result in unexpected behavior and hinder the proper execution of the Docker Compose configuration.
+
 
 
 ## Accessing the API
-Once the containers are running, you can access the API endpoints using your browser or a tool like curl. Here are the main endpoints:
+Once the containers are running and the database seeding has completed, you can access the API endpoints using your browser or a tool like postman. Here are the main endpoints:
 
-To access the main API endpoint: http://localhost:3001/getUFOdata/
+To access the main API endpoint and retrieve all UFO data:
+
+ http://localhost:3001/getUFOdata/
 
 To query by location:
 
@@ -55,13 +61,12 @@ http://localhost:3001/getUFOdata/?dateOfOccurrence=
 
 Provide multiple values as parameters, separated by commas.
 
-## Running Unit Tests
-To run unit tests for the application, you can use the following command:
-
-```docker-compose run app npm test```
 
 ## Example Queries
 Here are some example queries you can try:
+
+- Get all results:
+http://localhost:3001/getUFOdata/
 
 - Query by location and date:
 http://localhost:3001/getUFOdata/?country=usa&city=los%20angeles&dateOfOccurrence=7%2f21%2f23&state=CA
@@ -77,6 +82,12 @@ http://localhost:3001/getUFOdata/?country=usa
 
 - Query by city:
 http://localhost:3001/getUFOdata/?city=los%20angeles
+
+
+## Running Unit Tests
+To run unit tests for the application, you can use the following command:
+
+```docker-compose run app npm test```
 
 
 ## Dependencies Used
