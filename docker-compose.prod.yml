@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile.prod
+    container_name: app
     env_file:
       - .env
     command: npm start
@@ -14,7 +15,8 @@ services:
   nginx:
     build:
       context: ./nginx
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
+    container_name: nginx
     ports:
       - "80:80"
     depends_on:
@@ -22,6 +24,7 @@ services:
 
   postgres-prod:
     image: postgres:11
+    container_name: postgres-prod
     ports:
       - "5433:5432"  # Mapping container port 5432 to host port 5433
     environment:
