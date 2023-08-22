@@ -2,7 +2,9 @@ version: "3"
 services:
   app:
     restart: on-failure
-    build: .
+    build:
+      context: .
+      dockerfile: dockerfile.dev
     env_file:
       - .env
     ports:
@@ -10,7 +12,6 @@ services:
     command: npm start
     volumes:
       - ./src/logs:/app/src/logs
-
 
   postgres-dev:
     image: postgres:11
@@ -21,18 +22,3 @@ services:
       POSTGRES_USER: ${PGUSERDEV}
       POSTGRES_PASSWORD: ${PGPASSWORDDEV}
       POSTGRES_PORT: '5432'
-
-  postgres-prod:
-    image: postgres:11
-    ports:
-      - "5433:5432"  # Mapping container port 5432 to host port 5433
-    environment:
-      POSTGRES_DB: ${PGDATABASENAMEPROD}
-      POSTGRES_USER: ${PGUSERPROD}
-      POSTGRES_PASSWORD: ${PGPASSWORDPROD}
-      POSTGRES_PORT: '5432'
-#     volumes:
-#       - postgres-prod-data:/var/lib/postgresql/data
-
-# volumes:
-#   postgres-prod-data:

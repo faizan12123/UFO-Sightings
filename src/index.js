@@ -1,9 +1,10 @@
 const createServer = require('./utils/server')
 const logger = require('./logs/logger')
+require('dotenv').config({path: '../.env'});
 // Make express server
 
 
-const port =3001
+const port = process.env.NODE_ENV === 'production' ? 80 : 3001;
 
 const app = createServer()
 

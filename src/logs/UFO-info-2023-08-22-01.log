@@ -1,0 +1,9 @@
+2023-08-22T01:05:43.611Z [32minfo[39m: 	Server is running on port 3001
+2023-08-22T01:05:45.065Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: undefined dateOfOccurrence: 7/21/23
+2023-08-22T01:05:46.568Z [32minfo[39m: 	Scraping completed
+2023-08-22T01:05:46.665Z [32minfo[39m: 	Seed completed
+2023-08-22T01:05:48.758Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: undefined dateOfOccurrence: 7/21/23
+2023-08-22T01:05:52.798Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: undefined
+2023-08-22T01:05:56.583Z [32minfo[39m: 	API Query Received: state: undefined city: los angeles country: undefined dateOfOccurrence: 7/21/23
+2023-08-22T01:05:59.593Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: undefined dateOfOccurrence: 7/21/23
+2023-08-22T01:06:02.289Z [32minfo[39m: 	API Query Received: state: CA city: undefined country: undefined dateOfOccurrence: undefined
