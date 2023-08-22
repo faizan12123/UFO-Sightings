@@ -12,12 +12,12 @@ services:
       - ./src/logs:/app/src/logs
 
   nginx:
-      dockerfile: dockerfile
-      context: ./nginx
-      ports:
-        - "80:80"
-      depends_on:
-        - app
+    dockerfile: dockerfile
+    context: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - app
 
   postgres-prod:
     image: postgres:11
