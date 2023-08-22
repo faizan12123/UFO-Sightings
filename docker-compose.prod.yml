@@ -12,8 +12,9 @@ services:
       - ./src/logs:/app/src/logs
 
   nginx:
-    dockerfile: dockerfile
-    context: ./nginx
+    build:
+      context: ./nginx
+      dockerfile: dockerfile
     ports:
       - "80:80"
     depends_on:
@@ -28,8 +29,8 @@ services:
       POSTGRES_USER: ${PGUSERPROD}
       POSTGRES_PASSWORD: ${PGPASSWORDPROD}
       POSTGRES_PORT: '5432'
-    volumes:
-      - postgres-prod-data:/var/lib/postgresql/data
+#     volumes:
+#       - postgres-prod-data:/var/lib/postgresql/data
 
-volumes:
-  postgres-prod-data:
+# volumes:
+#   postgres-prod-data:
