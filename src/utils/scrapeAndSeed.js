@@ -33,5 +33,5 @@ const runScrapingAndSeeding = async () => {
   }
 };
 runScrapingAndSeeding()
-setInterval(runScrapingAndSeeding, 6 * 60 * 60 * 1000); // 6 hours in milliseconds
+setInterval(runScrapingAndSeeding, 60 * 60 * 1000); // 6 hours in milliseconds
 
