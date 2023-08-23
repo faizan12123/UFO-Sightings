@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile.dev
+    container_name: app
     env_file:
       - .env
     ports:
@@ -15,6 +16,7 @@ services:
 
   postgres-dev:
     image: postgres:11
+    container_name: postgres-dev
     ports:
       - "5434:5432"
     environment:
