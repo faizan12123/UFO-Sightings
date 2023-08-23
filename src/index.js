@@ -3,7 +3,7 @@ const logger = require('./logs/logger')
 // Make express server
 
 
-const port =3001
+const port = 3001
 
 const app = createServer()
 

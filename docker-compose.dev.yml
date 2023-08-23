@@ -1,0 +1,26 @@
+version: "3"
+services:
+  app:
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: dockerfile.dev
+    container_name: app
+    env_file:
+      - .env
+    ports:
+      - "3001:3001"
+    command: npm start
+    volumes:
+      - ./src/logs:/app/src/logs
+
+  postgres-dev:
+    image: postgres:11
+    container_name: postgres-dev
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_DB: ${PGDATABASENAMEDEV}
+      POSTGRES_USER: ${PGUSERDEV}
+      POSTGRES_PASSWORD: ${PGPASSWORDDEV}
+      POSTGRES_PORT: '5432'

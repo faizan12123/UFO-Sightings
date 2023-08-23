@@ -8,7 +8,6 @@ module.exports = {
       database: process.env.PGDATABASENAMEDEV,
       user: process.env.PGUSERDEV,
       password: process.env.PGPASSWORDDEV,
-      port: process.env.PGPORTDEV,
     },
     pool: {
       min: 2,
@@ -29,7 +28,6 @@ module.exports = {
       database: process.env.PGDATABASENAMEPROD,
       user: process.env.PGUSERPROD,
       password: process.env.PGPASSWORDPROD,
-      port: process.env.PGPORTPROD
     },
     pool: {
       min: 2,
