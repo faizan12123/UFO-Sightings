@@ -34,6 +34,16 @@
             "date": 1692752437245,
             "name": "src/logs/UFO-error-2023-08-23-01.log",
             "hash": "ec8bd462adbe28e6aae9b68a7a0fa7e41aeabbaef6d608177e2aeea9bdc7c52c"
+        },
+        {
+            "date": 1692776000732,
+            "name": "src/logs/UFO-error-2023-08-23-07.log",
+            "hash": "08833f65d9d8a58cccee0998c7a118eac3c77a3aa6eb36c96d3526ff8d69ffaa"
+        },
+        {
+            "date": 1692778236745,
+            "name": "src/logs/UFO-error-2023-08-23-08.log",
+            "hash": "b7a2f4f611db95362cf5086e0ff380e5865e69176864b8dc99b504767f0aca84"
         }
     ],
     "hashType": "sha256"

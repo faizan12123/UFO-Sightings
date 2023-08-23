@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UFO Data Viewer</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    input {
+      margin: 5px;
+    }
+
+    header {
+      position: relative;
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    #flyingImage {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      animation: flyAnimation 5s linear infinite alternate;
+    }
+
+    @keyframes flyAnimation {
+      from {
+        left: 0;
+      }
+      to {
+        left: calc(100% - 100px); /* Adjust the image width */
+      }
+    }
+
+  </style>
+</head>
+<body>
+    <header>
+        <h1>UFO Data Viewer</h1>
+        <h3>Discover Recent UFO Sightings: Unveiling 6 Months of Enigmatic Reports, Updated Every 6 Hours.</h3>
+        <img id="flyingImage" src="./ezgif-5-8f68166ddd.png" alt="Flying UFO">
+    </header>
+  
+  <div>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" placeholder="Los Angeles, Atlanta">
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" placeholder="CA, TX">
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" placeholder="USA">
+    <label for="incidentDate">Incident Date:</label>
+    <input type="text" id="incidentDate" name="incidentDate" placeholder="mm/dd/yy, m/d/yy">
+    <button type="button" id="searchButton">Search</button>
+  </div>
+
+  <table id="ufoTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Shape</th>
+        <th>Reported Date</th>
+        <th>Incident Date</th>
+        <th>Duration</th>
+        <th>Summary</th>
+        <th>Images</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script>
+    const ufoTable = document.getElementById("ufoTable");
+    const searchButton = document.getElementById("searchButton");
+    const cityInput = document.getElementById("city");
+    const stateInput = document.getElementById("state");
+    const countryInput = document.getElementById("country");
+    const incidentDateInput = document.getElementById("incidentDate");
+
+    searchButton.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent form submission
+    fetchData();
+    });
+
+
+    async function fetchData() {
+        const cityValue = cityInput.value.split(',').map(value => encodeURIComponent(value.trim())).join(',');
+        const stateValue = stateInput.value.split(',').map(value => encodeURIComponent(value.trim())).join(',');
+        const countryValue = countryInput.value.split(',').map(value => encodeURIComponent(value.trim())).join(',');
+        const incidentDateValue = incidentDateInput.value.split(',').map(value => encodeURIComponent(value.trim())).join(',');
+
+        const queryParams = new URLSearchParams({
+       city: cityValue,
+        state: stateValue,
+        country: countryValue,
+        dateOfOccurrence: incidentDateValue
+      });
+
+      const apiUrl = `http://localhost:3001/getUFOdata/?${queryParams.toString()}`;
+      console.log(apiUrl)
+      
+      try {
+        const response = await fetch(apiUrl);
+        // Check for a "400 Bad Request" status
+        if (response.status === 400) {
+            displayNoResultsMessage();
+            return; // Exit the function to prevent further execution
+        }
+        const data = await response.json();
+        console.log(data)
+        displayData(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    }
+
+    function displayData(data) {
+      const tbody = ufoTable.querySelector("tbody");
+      tbody.innerHTML = "";
+
+      data.forEach(item => {
+        const row = document.createElement("tr");
+        for (const key in item) {
+          const cell = document.createElement("td");
+          cell.textContent = item[key];
+          row.appendChild(cell);
+        }
+        tbody.appendChild(row);
+      });
+    }
+    function displayNoResultsMessage() {
+        const tbody = ufoTable.querySelector("tbody");
+        tbody.innerHTML = "";
+
+        const noResultsRow = document.createElement("tr");
+        const noResultsCell = document.createElement("td");
+        noResultsCell.textContent = "No results found matching this search.";
+        noResultsCell.colSpan = 10; // Span all columns
+        noResultsRow.appendChild(noResultsCell);
+        tbody.appendChild(noResultsRow);
+    }
+
+    // Initial load
+    fetchData();
+  </script>
+</body>
+</html>
