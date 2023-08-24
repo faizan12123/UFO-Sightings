@@ -27,37 +27,61 @@ Before you begin, please ensure that you have the following prerequisites instal
 
 2. Build and start the application containers using the following command:
 
+- For a development environment, set the `NODE_ENV` variable in the `.env` file to `development` and run the following command:
 ```bash
-docker-compose up --build -d
+docker compose -f docker-compose.dev.yml up --build -d
+```
+
+- For a production environment, set the `NODE_ENV` variable in the `.env` file to `production` and run the following command:
+```bash
+docker compose -f docker-compose.prod.yml up --build -d
 ```
 
 ### Warning
-Before running the `docker-compose` command above, please ensure that the following ports are **not** already in use by other processes on your local system:
+1. Before running the `docker-compose` command above, please ensure that the following ports are **not** already in use by other processes on your local system:
 
 - Port `3001`
 - Port `5434`
 - Port `5433`
 
-Conflicting port usage could result in unexpected behavior and hinder the proper execution of the Docker Compose configuration.
+    Conflicting port usage could result in unexpected behavior and hinder the proper execution of the Docker Compose configuration.
+
+2. If you are running the production environment, ensure to modify the `server_name` in the `./nginx/default.conf` file to match your own domain or server name
 
 
 
 ## Accessing the API
-Once the containers are running and the database seeding has completed, you can access the API endpoints using your browser or a tool like postman. Here are the main endpoints:
+The application is currently hosted on AWS EC2 and is accessible at http://54.219.166.135/app/getUFOdata/. If you want to directly interact with the API without deploying the application, you can use this domain.
 
-To access the main API endpoint and retrieve all UFO data:
+Alternatively, if you are running the application locally, once the containers are running and the database seeding has completed you can use the http://localhost:3001/getUFOdata/ domain instead. You can access the API endpoints using your browser or a tool like postman. 
 
- http://localhost:3001/getUFOdata/
+Here are the main endpoints:
 
-To query by location:
+- To access the main API endpoint and retrieve all UFO data:
 
-http://localhost:3001/getUFOdata/?country=&city=&state=
+    - http://localhost:3001/getUFOdata/
+
+    or 
+
+    - http://54.219.166.135/app/getUFOdata/
+
+- To query by location:
+
+    - http://localhost:3001/getUFOdata/?country=&city=&state=
+
+    or 
+
+    - http://54.219.166.135/app/getUFOdata/?country=&city=&state=
 
 Provide multiple values as parameters, separated by commas.
 
-To query by date of occurrence:
+- To query by date of occurrence:
 
-http://localhost:3001/getUFOdata/?dateOfOccurrence=
+    - http://localhost:3001/getUFOdata/?dateOfOccurrence=
+
+    or 
+
+    - http://54.219.166.135/app/getUFOdata/?dateOfOccurrence=
 
 Provide multiple values as parameters, separated by commas.
 
