@@ -12,7 +12,7 @@ const logFormat = winston.format.combine(
 );
 
 const infoTransport = new DailyRotateFile({
-  filename: 'src/logs/UFO-info-%DATE%.log',
+  filename: 'src/logs/info/UFO-info-%DATE%.log',
   datePattern: "YYYY-MM-DD-HH",
   zippedArchive: true,
   maxSize: "20m",
@@ -22,7 +22,7 @@ const infoTransport = new DailyRotateFile({
 });
 
 const errorTransport = new DailyRotateFile({
-  filename: 'src/logs/UFO-error-%DATE%.log',
+  filename: 'src/logs/error/UFO-error-%DATE%.log',
   datePattern: "YYYY-MM-DD-HH",
   zippedArchive: true,
   maxSize: "20m",
@@ -32,7 +32,7 @@ const errorTransport = new DailyRotateFile({
 });
 
 const warnTransport = new DailyRotateFile({
-  filename: 'src/logs/UFO-warn-%DATE%.log',
+  filename: 'src/logs/warning/UFO-warn-%DATE%.log',
   datePattern: "YYYY-MM-DD-HH",
   zippedArchive: true,
   maxSize: "20m",

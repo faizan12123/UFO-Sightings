@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "src/logs/error/.33a76c01a8c1ebe6f96473879c15c36327a2d559-audit.json",
+    "files": [
+        {
+            "date": 1692911654366,
+            "name": "src/logs/error/UFO-error-2023-08-24-21.log",
+            "hash": "fe775bea9bd7dd6db5413d645e7ac306217f452c35040749b0343c2551f2ba09"
+        }
+    ],
+    "hashType": "sha256"
+}
