@@ -1,7 +1,9 @@
-# Pull in the from the official nginx image.
+# Use the official Nginx base image
 FROM nginx
 
-EXPOSE 80
+# Install Certbot and necessary dependencies
+RUN apt-get update && \
+    apt-get install -y certbot python3-certbot-nginx
 
 # Delete the default welcome to nginx page.
 RUN rm /usr/share/nginx/html/*
@@ -9,5 +11,9 @@ RUN rm /usr/share/nginx/html/*
 # Copy over the custom default configs.
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 
-# Start nginx in the foreground to play nicely with Docker.
-CMD ["nginx", "-g", "daemon off;"]
+# Copy the Certbot renewal script into the container
+COPY ./renew-certs.sh /renew-certs.sh
+RUN chmod +x /renew-certs.sh
+
+# Start Certbot and Nginx in the foreground using the script
+CMD ["/renew-certs.sh"]
