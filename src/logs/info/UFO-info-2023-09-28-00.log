@@ -1,0 +1,19 @@
+2023-09-28T00:08:34.510Z [32minfo[39m: 	Server is running on port 3001
+2023-09-28T00:09:44.819Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:09:44.874Z [32minfo[39m: 	Update completed
+2023-09-28T00:10:29.082Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: usa,indonesia,france dateOfOccurrence: 7/21/23
+2023-09-28T00:10:39.637Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: usa,indonesia,france dateOfOccurrence: 7/21/23
+2023-09-28T00:10:41.228Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:10:41.228Z [32minfo[39m: 	Update completed
+2023-09-28T00:11:38.171Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:11:38.172Z [32minfo[39m: 	Update completed
+2023-09-28T00:12:39.692Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:12:39.815Z [32minfo[39m: 	Update completed
+2023-09-28T00:13:40.705Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:13:40.705Z [32minfo[39m: 	Update completed
+2023-09-28T00:13:42.721Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: usa,indonesia,france dateOfOccurrence: 7/21/23
+2023-09-28T00:13:47.554Z [32minfo[39m: 	API Query Received: state: CA city: los angeles country: undefined dateOfOccurrence: 7/21/23
+2023-09-28T00:14:38.757Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:14:38.758Z [32minfo[39m: 	Update completed
+2023-09-28T00:15:45.786Z [32minfo[39m: 	Scraping completed
+2023-09-28T00:15:45.787Z [32minfo[39m: 	Update completed

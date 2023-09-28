@@ -24,3 +24,14 @@ services:
       POSTGRES_USER: ${PGUSERDEV}
       POSTGRES_PASSWORD: ${PGPASSWORDDEV}
       POSTGRES_PORT: '5432'
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    ports:
+      - "5050:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    depends_on:
+      - postgres-dev

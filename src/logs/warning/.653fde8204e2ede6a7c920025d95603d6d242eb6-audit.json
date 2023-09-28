@@ -6,9 +6,19 @@
     "auditLog": "src/logs/warning/.653fde8204e2ede6a7c920025d95603d6d242eb6-audit.json",
     "files": [
         {
-            "date": 1692911654373,
-            "name": "src/logs/warning/UFO-warn-2023-08-24-21.log",
-            "hash": "68cf274173a8dce7900729d8d59174054fabe9edd4aaeccc3253bf45138becda"
+            "date": 1695859713751,
+            "name": "src/logs/warning/UFO-warn-2023-09-28-00.log",
+            "hash": "0b6bd22c0962e9a2b771c5c47685ca05361c33d053b5a89835e9dcf9273da187"
+        },
+        {
+            "date": 1695879243867,
+            "name": "src/logs/warning/UFO-warn-2023-09-28-05.log",
+            "hash": "96d69066b45f0c31d1a318a4e75633e0f2210491815a3cd6bbade301dceced8f"
+        },
+        {
+            "date": 1695881324495,
+            "name": "src/logs/warning/UFO-warn-2023-09-28-06.log",
+            "hash": "4d093b859e793b6d4abd8de41789d780cc6d802d09c1f4a16ee6493a47a3a8c4"
         }
     ],
     "hashType": "sha256"

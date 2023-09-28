@@ -1,0 +1,4 @@
+2023-09-28T05:38:45.509Z [31merror[39m: 	Navigation timeout of 30000 ms exceeded
+2023-09-28T05:38:45.510Z [31merror[39m: 	Update or scrape error: tableData is not iterable
+2023-09-28T05:39:06.006Z [31merror[39m: 	Navigation timeout of 30000 ms exceeded
+2023-09-28T05:39:06.008Z [31merror[39m: 	Update or scrape error: tableData is not iterable

@@ -14,30 +14,77 @@ const scrapeAndSeed = async () => {
     const tableData = await dataScraper(browser);
     logger.info("Scraping completed");
 
-    // // Truncate the table to delete all previous data
-    // await db('ufo').truncate();
+    console.log(typeof tableData); // Check the type of tableData
+    console.log(tableData[0]); // Log the value of tableData
 
-    // Use the db instance to seed the database
-    const formattedData = tableData.map(row => ({
-      city: row.city,
-      state: row.state,
-      country: row.country,
-      shape: row.shape,
-      reported_date: row.posted,
-      incident_date: row.dateTime,
-      duration: row.duration,
-      summary: row.summary,
-      images: row.images
-    }));
+    // Process the scraped data and compare with existing database records
+    for (const row of tableData) {
+      const existingRecord = await db('ufo').where({
+        summary: row.summary,
+        incident_date: row.dateTime,
+      }).first();
+      console.log(existingRecord)
+      if (existingRecord) {
+        // Compare each field individually and update if there are differences
+        const updateData = {};
 
-    await db('ufo').insert(formattedData);
+        if (existingRecord.city !== row.city) {
+          updateData.city = row.city;
+        }
 
-    logger.info("Seed completed");
+        if (existingRecord.state !== row.state) {
+          updateData.state = row.state;
+        }
+
+        if (existingRecord.country !== row.country) {
+          updateData.country = row.country;
+        }
+
+        if (existingRecord.shape !== row.shape) {
+          updateData.shape = row.shape;
+        }
+
+        if (existingRecord.reported_date !== row.posted) {
+          updateData.reported_date = row.posted;
+        }
+
+        if (existingRecord.duration !== row.duration) {
+          updateData.duration = row.duration;
+        }
+
+        if (existingRecord.images !== row.images) {
+          updateData.images = row.images;
+        }
+
+        // Check if there are differences to update
+        if (Object.keys(updateData).length > 0) {
+          await db('ufo').where('id', existingRecord.id).update(updateData);
+        }
+      } else {
+        // Insert new record if it doesn't exist
+        await db('ufo').insert({
+          city: row.city,
+          state: row.state,
+          country: row.country,
+          shape: row.shape,
+          reported_date: row.posted,
+          incident_date: row.dateTime,
+          duration: row.duration,
+          summary: row.summary,
+          images: row.images
+        });
+        console.log("inserted")
+      }
+    }
+
+    logger.info("Update completed");
     await browser.close();
   } catch (error) {
-    logger.error("Seed or scrape error:", error);
+    logger.error("Update or scrape error:", error);
   }
 };
 
-scrapeAndSeed();
+setInterval(scrapeAndSeed, 6 * 60 * 60 * 1000); // 6 hours in milliseconds
+// setInterval(scrapeAndSeed, 60 * 1000); // 6 hours in milliseconds
+
 
