@@ -14,8 +14,8 @@ const scrapeAndSeed = async () => {
     const tableData = await dataScraper(browser);
     logger.info("Scraping completed");
 
-    console.log(typeof tableData); // Check the type of tableData
-    console.log(tableData[0]); // Log the value of tableData
+    console.info(typeof tableData); // Check the type of tableData
+    console.info(tableData[0]); // Log the value of tableData
 
     // Process the scraped data and compare with existing database records
     for (const row of tableData) {

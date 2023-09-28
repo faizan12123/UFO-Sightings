@@ -1,0 +1,5 @@
+2023-09-28T06:36:06.107Z [31merror[39m: 	Failed to launch the browser process! spawn /usr/bin/google-chrome ENOENT
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+

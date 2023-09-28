@@ -1,8 +1,11 @@
 const puppeteer = require('puppeteer')
 const logger = require('../logs/logger')
 
-const dataScraper = async (browser) => {
+const dataScraper = async () => {
   try{
+    const browser = await puppeteer.launch({
+      headless: true,
+    });
     const url = 'https://nuforc.org/webreports/ndxpost.html'
     const page = await browser.newPage()
     await page.goto(url)
@@ -65,10 +68,11 @@ const dataScraper = async (browser) => {
 
     }
     await browser.close()
+    // console.log(allTableData[0])
     return allTableData
   } catch (error) {
     logger.error(error)
   }
 }
-
+dataScraper()
 module.exports = dataScraper
